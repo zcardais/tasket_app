@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @tasket.name %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @tasket.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_tasket_path(@tasket) %> |
+<%= link_to 'Back', taskets_path %>
